@@ -1,0 +1,1018 @@
+2015/12/02 22:41:39 [error] 7#0: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValueException), Array)
+#5 /data/www/vendor/laravel/frame...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113):
+2015/12/02 22:42:19 [error] 7#0: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValueException), Array)
+#5 /data/www/vendor/laravel/frame...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113):
+2015/12/02 22:45:37 [error] 7#0: *6 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValueException), Array)
+#5 /data/www/vendor/laravel/frame...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113):
+2015/12/02 22:45:40 [error] 7#0: *6 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValueException), Array)
+#5 /data/www/vendor/laravel/frame...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113):
+2015/12/02 22:56:19 [error] 7#0: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValueException), Array)
+#5 /data/www/vendor/laravel/frame...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113):
+2015/12/02 23:06:32 [error] 7#0: *7 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValueException), Array)
+#5 /data/www/vendor/laravel/frame...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113):
+2015/12/02 23:11:23 [error] 7#0: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValueException), Array)
+#5 /data/www/vendor/laravel/frame...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113):
+2015/12/02 23:11:23 [error] 7#0: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValueException), Array)
+#5 /data/www/vendor/laravel/frame...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113):
+2015/12/02 23:15:02 [error] 7#0: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValueException), Array)
+#5 /data/www/vendor/laravel/frame...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113):
+2015/12/02 23:15:03 [error] 7#0: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValueException), Array)
+#5 /data/www/vendor/laravel/frame...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113):
+2015/12/02 23:17:45 [error] 7#0: *5 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValueException), Array)
+#5 /data/www/vendor/laravel/frame...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113):
+2015/12/02 23:17:56 [error] 7#0: *5 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValueException), Array)
+#5 /data/www/vendor/laravel/frame...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113):
+2015/12/02 23:17:57 [error] 7#0: *5 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValueException), Array)
+#5 /data/www/vendor/laravel/frame...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113):
+2015/12/02 23:18:04 [error] 7#0: *5 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValueException), Array)
+#5 /data/www/vendor/laravel/frame...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113):
+2015/12/02 23:18:56 [error] 7#0: *11 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValueException), Array)
+#5 /data/www/vendor/laravel/frame...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113)
+2015/12/02 23:18:57 [error] 7#0: *11 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValueException), Array)
+#5 /data/www/vendor/laravel/frame...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113)
+2015/12/02 23:21:35 [error] 7#0: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValueException), Array)
+#5 /data/www/vendor/laravel/frame...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113):
+2015/12/02 23:21:36 [error] 7#0: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValueException), Array)
+#5 /data/www/vendor/laravel/frame...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113):
+2015/12/02 23:24:05 [error] 8#0: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValueException), Array)
+#5 /data/www/vendor/laravel/frame...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113):
+2015/12/02 23:24:05 [error] 8#0: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValueException), Array)
+#5 /data/www/vendor/laravel/frame...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113):
+2015/12/02 23:24:06 [error] 8#0: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValueException), Array)
+#5 /data/www/vendor/laravel/frame...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113):
+2015/12/02 23:24:06 [error] 8#0: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValueException), Array)
+#5 /data/www/vendor/laravel/frame...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113):
+2015/12/02 23:24:07 [error] 8#0: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValueException), Array)
+#5 /data/www/vendor/laravel/frame...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113):
+2015/12/02 23:24:07 [error] 8#0: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValueException), Array)
+#5 /data/www/vendor/laravel/frame...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113):
+2015/12/02 23:24:07 [error] 8#0: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValueException), Array)
+#5 /data/www/vendor/laravel/frame...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113):
+2015/12/02 23:26:27 [error] 8#0: *9 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValueException), Array)
+#5 /data/www/vendor/laravel/frame...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113):
+2015/12/02 23:26:28 [error] 8#0: *9 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValueException), Array)
+#5 /data/www/vendor/laravel/frame...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113):
+2015/12/02 23:26:28 [error] 8#0: *9 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValueException), Array)
+#5 /data/www/vendor/laravel/frame...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113):
+2015/12/02 23:32:32 [error] 8#0: *13 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValueException), Array)
+#5 /data/www/vendor/laravel/frame...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113)
+2015/12/02 23:32:33 [error] 8#0: *13 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValueException), Array)
+#5 /data/www/vendor/laravel/frame...
+PHP message: PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/data/www/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied' in /data/www/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:87
+Stack trace:
+#0 /data/www/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(289): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /data/www/vendor/monolog/monolog/src/Monolog/Logger.php(565): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#4 /data/www/vendor/laravel/framework/src/Illuminate/Log/Writer.php(113)
+2015/12/04 00:29:45 [error] 7#0: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'Facebook' not found in /data/www/app/Http/routes.php on line 23
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /data/www/public/index.php:0
+PHP message: PHP   2. Illuminate\Foundation\Http\Kernel->handle() /data/www/public/index.php:54
+PHP message: PHP   3. Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:87
+PHP message: PHP   4. Illuminate\Pipeline\Pipeline->then() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:122
+PHP message: PHP   5. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP   6. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP   7. call_user_func_array:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP   8. Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP   9. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php:44
+PHP message: PHP  10. call_user_func_array:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP  11. Illuminate\Cookie\Middleware\EncryptCookies->handle() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP  12. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illumi
+2015/12/04 00:29:45 [error] 7#0: *1 FastCGI sent in stderr: "ta/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php:50
+PHP message: PHP  25. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  26. Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  27. Illuminate\Routing\Router->dispatch() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:236
+PHP message: PHP  28. Illuminate\Routing\Router->dispatchToRoute() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:635
+PHP message: PHP  29. Illuminate\Routing\Router->runRouteWithinStack() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:675
+PHP message: PHP  30. Illuminate\Pipeline\Pipeline->then() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:710
+PHP message: PHP  31. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP  32. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP  33. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  34. Illuminate\Routing\Router->Illuminate\Routing\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  35. Illuminate\Routing\Route->run() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:708
+PHP message: PHP  36. Illuminate\Routing\Route->runCallable() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Route.php:130
+PHP 
+2015/12/04 00:30:42 [error] 7#0: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'Facebook' not found in /data/www/app/Http/routes.php on line 23
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /data/www/public/index.php:0
+PHP message: PHP   2. Illuminate\Foundation\Http\Kernel->handle() /data/www/public/index.php:54
+PHP message: PHP   3. Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:87
+PHP message: PHP   4. Illuminate\Pipeline\Pipeline->then() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:122
+PHP message: PHP   5. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP   6. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP   7. call_user_func_array:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP   8. Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP   9. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php:44
+PHP message: PHP  10. call_user_func_array:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP  11. Illuminate\Cookie\Middleware\EncryptCookies->handle() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP  12. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illumi
+2015/12/04 00:30:42 [error] 7#0: *1 FastCGI sent in stderr: "ta/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php:50
+PHP message: PHP  25. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  26. Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  27. Illuminate\Routing\Router->dispatch() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:236
+PHP message: PHP  28. Illuminate\Routing\Router->dispatchToRoute() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:635
+PHP message: PHP  29. Illuminate\Routing\Router->runRouteWithinStack() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:675
+PHP message: PHP  30. Illuminate\Pipeline\Pipeline->then() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:710
+PHP message: PHP  31. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP  32. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP  33. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  34. Illuminate\Routing\Router->Illuminate\Routing\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  35. Illuminate\Routing\Route->run() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:708
+PHP message: PHP  36. Illuminate\Routing\Route->runCallable() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Route.php:130
+PHP 
+2015/12/04 00:30:43 [error] 7#0: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'Facebook' not found in /data/www/app/Http/routes.php on line 23
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /data/www/public/index.php:0
+PHP message: PHP   2. Illuminate\Foundation\Http\Kernel->handle() /data/www/public/index.php:54
+PHP message: PHP   3. Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:87
+PHP message: PHP   4. Illuminate\Pipeline\Pipeline->then() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:122
+PHP message: PHP   5. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP   6. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP   7. call_user_func_array:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP   8. Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP   9. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php:44
+PHP message: PHP  10. call_user_func_array:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP  11. Illuminate\Cookie\Middleware\EncryptCookies->handle() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP  12. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illumi
+2015/12/04 00:30:43 [error] 7#0: *1 FastCGI sent in stderr: "ta/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php:50
+PHP message: PHP  25. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  26. Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  27. Illuminate\Routing\Router->dispatch() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:236
+PHP message: PHP  28. Illuminate\Routing\Router->dispatchToRoute() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:635
+PHP message: PHP  29. Illuminate\Routing\Router->runRouteWithinStack() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:675
+PHP message: PHP  30. Illuminate\Pipeline\Pipeline->then() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:710
+PHP message: PHP  31. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP  32. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP  33. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  34. Illuminate\Routing\Router->Illuminate\Routing\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  35. Illuminate\Routing\Route->run() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:708
+PHP message: PHP  36. Illuminate\Routing\Route->runCallable() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Route.php:130
+PHP 
+2015/12/04 00:31:00 [error] 7#0: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'Facebook' not found in /data/www/app/Http/routes.php on line 23
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /data/www/public/index.php:0
+PHP message: PHP   2. Illuminate\Foundation\Http\Kernel->handle() /data/www/public/index.php:54
+PHP message: PHP   3. Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:87
+PHP message: PHP   4. Illuminate\Pipeline\Pipeline->then() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:122
+PHP message: PHP   5. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP   6. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP   7. call_user_func_array:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP   8. Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP   9. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php:44
+PHP message: PHP  10. call_user_func_array:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP  11. Illuminate\Cookie\Middleware\EncryptCookies->handle() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP  12. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illumi
+2015/12/04 00:31:00 [error] 7#0: *1 FastCGI sent in stderr: "ta/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php:50
+PHP message: PHP  25. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  26. Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  27. Illuminate\Routing\Router->dispatch() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:236
+PHP message: PHP  28. Illuminate\Routing\Router->dispatchToRoute() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:635
+PHP message: PHP  29. Illuminate\Routing\Router->runRouteWithinStack() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:675
+PHP message: PHP  30. Illuminate\Pipeline\Pipeline->then() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:710
+PHP message: PHP  31. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP  32. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP  33. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  34. Illuminate\Routing\Router->Illuminate\Routing\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  35. Illuminate\Routing\Route->run() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:708
+PHP message: PHP  36. Illuminate\Routing\Route->runCallable() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Route.php:130
+PHP 
+2015/12/04 00:31:01 [error] 7#0: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'Facebook' not found in /data/www/app/Http/routes.php on line 23
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /data/www/public/index.php:0
+PHP message: PHP   2. Illuminate\Foundation\Http\Kernel->handle() /data/www/public/index.php:54
+PHP message: PHP   3. Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:87
+PHP message: PHP   4. Illuminate\Pipeline\Pipeline->then() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:122
+PHP message: PHP   5. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP   6. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP   7. call_user_func_array:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP   8. Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP   9. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php:44
+PHP message: PHP  10. call_user_func_array:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP  11. Illuminate\Cookie\Middleware\EncryptCookies->handle() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP  12. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illumi
+2015/12/04 00:31:01 [error] 7#0: *1 FastCGI sent in stderr: "ta/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php:50
+PHP message: PHP  25. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  26. Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  27. Illuminate\Routing\Router->dispatch() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:236
+PHP message: PHP  28. Illuminate\Routing\Router->dispatchToRoute() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:635
+PHP message: PHP  29. Illuminate\Routing\Router->runRouteWithinStack() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:675
+PHP message: PHP  30. Illuminate\Pipeline\Pipeline->then() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:710
+PHP message: PHP  31. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP  32. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP  33. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  34. Illuminate\Routing\Router->Illuminate\Routing\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  35. Illuminate\Routing\Route->run() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:708
+PHP message: PHP  36. Illuminate\Routing\Route->runCallable() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Route.php:130
+PHP 
+2015/12/04 00:41:14 [error] 7#0: *24 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Call to undefined method Facebook\Facebook::getLoginUrl() in /data/www/app/Http/routes.php on line 29
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /data/www/public/index.php:0
+PHP message: PHP   2. Illuminate\Foundation\Http\Kernel->handle() /data/www/public/index.php:54
+PHP message: PHP   3. Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:87
+PHP message: PHP   4. Illuminate\Pipeline\Pipeline->then() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:122
+PHP message: PHP   5. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP   6. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP   7. call_user_func_array:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP   8. Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP   9. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php:44
+PHP message: PHP  10. call_user_func_array:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP  11. Illuminate\Cookie\Middleware\EncryptCookies->handle() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP  12. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/ven
+2015/12/04 00:41:14 [error] 7#0: *24 FastCGI sent in stderr: "minate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php:50
+PHP message: PHP  25. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  26. Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  27. Illuminate\Routing\Router->dispatch() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:236
+PHP message: PHP  28. Illuminate\Routing\Router->dispatchToRoute() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:635
+PHP message: PHP  29. Illuminate\Routing\Router->runRouteWithinStack() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:675
+PHP message: PHP  30. Illuminate\Pipeline\Pipeline->then() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:710
+PHP message: PHP  31. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP  32. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP  33. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  34. Illuminate\Routing\Router->Illuminate\Routing\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  35. Illuminate\Routing\Route->run() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:708
+PHP message: PHP  36. Illuminate\Routing\Route->runCallable() /data/www/vendor/laravel/framework/src/Illum
+2015/12/04 00:43:54 [error] 7#0: *27 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Call to undefined method Facebook\Facebook::getLoginUrl() in /data/www/app/Http/routes.php on line 28
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /data/www/public/index.php:0
+PHP message: PHP   2. Illuminate\Foundation\Http\Kernel->handle() /data/www/public/index.php:54
+PHP message: PHP   3. Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:87
+PHP message: PHP   4. Illuminate\Pipeline\Pipeline->then() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:122
+PHP message: PHP   5. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP   6. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP   7. call_user_func_array:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP   8. Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP   9. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php:44
+PHP message: PHP  10. call_user_func_array:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP  11. Illuminate\Cookie\Middleware\EncryptCookies->handle() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP  12. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/ven
+2015/12/04 00:43:54 [error] 7#0: *27 FastCGI sent in stderr: "minate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php:50
+PHP message: PHP  25. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  26. Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  27. Illuminate\Routing\Router->dispatch() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:236
+PHP message: PHP  28. Illuminate\Routing\Router->dispatchToRoute() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:635
+PHP message: PHP  29. Illuminate\Routing\Router->runRouteWithinStack() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:675
+PHP message: PHP  30. Illuminate\Pipeline\Pipeline->then() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:710
+PHP message: PHP  31. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP  32. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP  33. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  34. Illuminate\Routing\Router->Illuminate\Routing\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  35. Illuminate\Routing\Route->run() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:708
+PHP message: PHP  36. Illuminate\Routing\Route->runCallable() /data/www/vendor/laravel/framework/src/Illum
+2015/12/04 00:43:55 [error] 7#0: *27 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Call to undefined method Facebook\Facebook::getLoginUrl() in /data/www/app/Http/routes.php on line 28
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /data/www/public/index.php:0
+PHP message: PHP   2. Illuminate\Foundation\Http\Kernel->handle() /data/www/public/index.php:54
+PHP message: PHP   3. Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:87
+PHP message: PHP   4. Illuminate\Pipeline\Pipeline->then() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:122
+PHP message: PHP   5. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP   6. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP   7. call_user_func_array:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP   8. Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP   9. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php:44
+PHP message: PHP  10. call_user_func_array:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP  11. Illuminate\Cookie\Middleware\EncryptCookies->handle() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP  12. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/ven
+2015/12/04 00:43:55 [error] 7#0: *27 FastCGI sent in stderr: "minate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php:50
+PHP message: PHP  25. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  26. Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  27. Illuminate\Routing\Router->dispatch() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:236
+PHP message: PHP  28. Illuminate\Routing\Router->dispatchToRoute() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:635
+PHP message: PHP  29. Illuminate\Routing\Router->runRouteWithinStack() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:675
+PHP message: PHP  30. Illuminate\Pipeline\Pipeline->then() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:710
+PHP message: PHP  31. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP  32. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP  33. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  34. Illuminate\Routing\Router->Illuminate\Routing\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  35. Illuminate\Routing\Route->run() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:708
+PHP message: PHP  36. Illuminate\Routing\Route->runCallable() /data/www/vendor/laravel/framework/src/Illum
+2015/12/04 00:45:15 [error] 7#0: *33 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Call to undefined method Facebook\Facebook::getLoginUrl() in /data/www/app/Http/routes.php on line 28
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /data/www/public/index.php:0
+PHP message: PHP   2. Illuminate\Foundation\Http\Kernel->handle() /data/www/public/index.php:54
+PHP message: PHP   3. Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:87
+PHP message: PHP   4. Illuminate\Pipeline\Pipeline->then() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:122
+PHP message: PHP   5. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP   6. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP   7. call_user_func_array:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP   8. Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP   9. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php:44
+PHP message: PHP  10. call_user_func_array:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP  11. Illuminate\Cookie\Middleware\EncryptCookies->handle() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP  12. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/ven
+2015/12/04 00:45:15 [error] 7#0: *33 FastCGI sent in stderr: "minate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php:50
+PHP message: PHP  25. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  26. Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  27. Illuminate\Routing\Router->dispatch() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:236
+PHP message: PHP  28. Illuminate\Routing\Router->dispatchToRoute() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:635
+PHP message: PHP  29. Illuminate\Routing\Router->runRouteWithinStack() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:675
+PHP message: PHP  30. Illuminate\Pipeline\Pipeline->then() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:710
+PHP message: PHP  31. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP  32. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP  33. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  34. Illuminate\Routing\Router->Illuminate\Routing\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  35. Illuminate\Routing\Route->run() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:708
+PHP message: PHP  36. Illuminate\Routing\Route->runCallable() /data/www/vendor/laravel/framework/src/Illum
+2015/12/04 00:45:17 [error] 7#0: *33 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Call to undefined method Facebook\Facebook::getLoginUrl() in /data/www/app/Http/routes.php on line 28
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /data/www/public/index.php:0
+PHP message: PHP   2. Illuminate\Foundation\Http\Kernel->handle() /data/www/public/index.php:54
+PHP message: PHP   3. Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:87
+PHP message: PHP   4. Illuminate\Pipeline\Pipeline->then() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:122
+PHP message: PHP   5. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP   6. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP   7. call_user_func_array:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP   8. Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP   9. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php:44
+PHP message: PHP  10. call_user_func_array:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP  11. Illuminate\Cookie\Middleware\EncryptCookies->handle() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP  12. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/ven
+2015/12/04 00:45:17 [error] 7#0: *33 FastCGI sent in stderr: "minate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php:50
+PHP message: PHP  25. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  26. Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  27. Illuminate\Routing\Router->dispatch() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:236
+PHP message: PHP  28. Illuminate\Routing\Router->dispatchToRoute() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:635
+PHP message: PHP  29. Illuminate\Routing\Router->runRouteWithinStack() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:675
+PHP message: PHP  30. Illuminate\Pipeline\Pipeline->then() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:710
+PHP message: PHP  31. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP  32. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP  33. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  34. Illuminate\Routing\Router->Illuminate\Routing\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  35. Illuminate\Routing\Route->run() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:708
+PHP message: PHP  36. Illuminate\Routing\Route->runCallable() /data/www/vendor/laravel/framework/src/Illum
+2015/12/04 14:24:26 [error] 10#0: *9 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /data/www/app/Http/routes.php on line 24
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /data/www/public/index.php:0
+PHP message: PHP   2. Illuminate\Foundation\Http\Kernel->handle() /data/www/public/index.php:54
+PHP message: PHP   3. Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:87
+PHP message: PHP   4. Illuminate\Foundation\Http\Kernel->bootstrap() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:117
+PHP message: PHP   5. Illuminate\Foundation\Application->bootstrapWith() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:222
+PHP message: PHP   6. Illuminate\Foundation\Bootstrap\BootProviders->bootstrap() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+PHP message: PHP   7. Illuminate\Foundation\Application->boot() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php:17
+PHP message: PHP   8. array_walk() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:718
+PHP message: PHP   9. Illuminate\Foundation\Application->Illuminate\Foundation\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:718
+PHP message: PHP  10. Illuminate\Foundation\Application->bootProvider() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:717
+PHP message: PHP  11. Illuminate\Container\Container->call() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:734
+PHP message: PHP  12. call_user_func_array:{/data/www/vendor/laravel/framework/src/Illuminate/Container/Container.php:503}() /data/www/vendor/laravel/framework/src/Illuminate/Container/Container.php:503
+PHP message: PHP  13. App\Providers\RouteServiceProvider->boot() /data/www/vendor/laravel/framework/src/I
+2015/12/04 14:24:27 [error] 10#0: *9 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /data/www/app/Http/routes.php on line 24
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /data/www/public/index.php:0
+PHP message: PHP   2. Illuminate\Foundation\Http\Kernel->handle() /data/www/public/index.php:54
+PHP message: PHP   3. Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:87
+PHP message: PHP   4. Illuminate\Foundation\Http\Kernel->bootstrap() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:117
+PHP message: PHP   5. Illuminate\Foundation\Application->bootstrapWith() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:222
+PHP message: PHP   6. Illuminate\Foundation\Bootstrap\BootProviders->bootstrap() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+PHP message: PHP   7. Illuminate\Foundation\Application->boot() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php:17
+PHP message: PHP   8. array_walk() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:718
+PHP message: PHP   9. Illuminate\Foundation\Application->Illuminate\Foundation\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:718
+PHP message: PHP  10. Illuminate\Foundation\Application->bootProvider() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:717
+PHP message: PHP  11. Illuminate\Container\Container->call() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:734
+PHP message: PHP  12. call_user_func_array:{/data/www/vendor/laravel/framework/src/Illuminate/Container/Container.php:503}() /data/www/vendor/laravel/framework/src/Illuminate/Container/Container.php:503
+PHP message: PHP  13. App\Providers\RouteServiceProvider->boot() /data/www/vendor/laravel/framework/src/I
+2015/12/04 14:51:09 [error] 10#0: *17 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected '/' in /data/www/app/Http/routes.php on line 32
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /data/www/public/index.php:0
+PHP message: PHP   2. Illuminate\Foundation\Http\Kernel->handle() /data/www/public/index.php:54
+PHP message: PHP   3. Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:87
+PHP message: PHP   4. Illuminate\Foundation\Http\Kernel->bootstrap() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:117
+PHP message: PHP   5. Illuminate\Foundation\Application->bootstrapWith() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:222
+PHP message: PHP   6. Illuminate\Foundation\Bootstrap\BootProviders->bootstrap() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+PHP message: PHP   7. Illuminate\Foundation\Application->boot() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php:17
+PHP message: PHP   8. array_walk() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:718
+PHP message: PHP   9. Illuminate\Foundation\Application->Illuminate\Foundation\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:718
+PHP message: PHP  10. Illuminate\Foundation\Application->bootProvider() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:717
+PHP message: PHP  11. Illuminate\Container\Container->call() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:734
+PHP message: PHP  12. call_user_func_array:{/data/www/vendor/laravel/framework/src/Illuminate/Container/Container.php:503}() /data/www/vendor/laravel/framework/src/Illuminate/Container/Container.php:503
+PHP message: PHP  13. App\Providers\RouteServiceProvider->boot() /data/www/vendor/laravel/framework/src/Illuminate/Contain
+2015/12/04 14:54:56 [error] 10#0: *19 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected '/' in /data/www/app/Http/routes.php on line 32
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /data/www/public/index.php:0
+PHP message: PHP   2. Illuminate\Foundation\Http\Kernel->handle() /data/www/public/index.php:54
+PHP message: PHP   3. Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:87
+PHP message: PHP   4. Illuminate\Foundation\Http\Kernel->bootstrap() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:117
+PHP message: PHP   5. Illuminate\Foundation\Application->bootstrapWith() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:222
+PHP message: PHP   6. Illuminate\Foundation\Bootstrap\BootProviders->bootstrap() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+PHP message: PHP   7. Illuminate\Foundation\Application->boot() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php:17
+PHP message: PHP   8. array_walk() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:718
+PHP message: PHP   9. Illuminate\Foundation\Application->Illuminate\Foundation\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:718
+PHP message: PHP  10. Illuminate\Foundation\Application->bootProvider() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:717
+PHP message: PHP  11. Illuminate\Container\Container->call() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:734
+PHP message: PHP  12. call_user_func_array:{/data/www/vendor/laravel/framework/src/Illuminate/Container/Container.php:503}() /data/www/vendor/laravel/framework/src/Illuminate/Container/Container.php:503
+PHP message: PHP  13. App\Providers\RouteServiceProvider->boot() /data/www/vendor/laravel/framework/src/Illuminate/Contain
+2015/12/04 14:58:08 [error] 10#0: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'Facebook' not found in /data/www/app/Http/routes.php on line 36
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /data/www/public/index.php:0
+PHP message: PHP   2. Illuminate\Foundation\Http\Kernel->handle() /data/www/public/index.php:54
+PHP message: PHP   3. Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:87
+PHP message: PHP   4. Illuminate\Pipeline\Pipeline->then() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:122
+PHP message: PHP   5. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP   6. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP   7. call_user_func_array:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP   8. Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP   9. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php:44
+PHP message: PHP  10. call_user_func_array:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP  11. Illuminate\Cookie\Middleware\EncryptCookies->handle() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP  12. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illu
+2015/12/04 14:58:08 [error] 10#0: *23 FastCGI sent in stderr: "ta/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php:50
+PHP message: PHP  25. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  26. Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  27. Illuminate\Routing\Router->dispatch() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:236
+PHP message: PHP  28. Illuminate\Routing\Router->dispatchToRoute() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:635
+PHP message: PHP  29. Illuminate\Routing\Router->runRouteWithinStack() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:675
+PHP message: PHP  30. Illuminate\Pipeline\Pipeline->then() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:710
+PHP message: PHP  31. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP  32. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP  33. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  34. Illuminate\Routing\Router->Illuminate\Routing\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  35. Illuminate\Routing\Route->run() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:708
+PHP message: PHP  36. Illuminate\Routing\Route->runCallable() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Route.php:130
+PH
+2015/12/04 15:03:35 [error] 10#0: *28 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Class 'Facebook' not found in /data/www/app/Http/routes.php on line 36
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /data/www/public/index.php:0
+PHP message: PHP   2. Illuminate\Foundation\Http\Kernel->handle() /data/www/public/index.php:54
+PHP message: PHP   3. Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:87
+PHP message: PHP   4. Illuminate\Pipeline\Pipeline->then() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:122
+PHP message: PHP   5. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP   6. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP   7. call_user_func_array:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP   8. Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP   9. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php:44
+PHP message: PHP  10. call_user_func_array:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP  11. Illuminate\Cookie\Middleware\EncryptCookies->handle() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP  12. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illu
+2015/12/04 15:03:35 [error] 10#0: *28 FastCGI sent in stderr: "ta/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php:50
+PHP message: PHP  25. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  26. Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  27. Illuminate\Routing\Router->dispatch() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:236
+PHP message: PHP  28. Illuminate\Routing\Router->dispatchToRoute() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:635
+PHP message: PHP  29. Illuminate\Routing\Router->runRouteWithinStack() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:675
+PHP message: PHP  30. Illuminate\Pipeline\Pipeline->then() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:710
+PHP message: PHP  31. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP  32. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP  33. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  34. Illuminate\Routing\Router->Illuminate\Routing\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  35. Illuminate\Routing\Route->run() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:708
+PHP message: PHP  36. Illuminate\Routing\Route->runCallable() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Route.php:130
+PH
+2015/12/04 15:04:44 [error] 10#0: *32 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Call to undefined method Facebook\Facebook::getUser() in /data/www/app/Http/routes.php on line 37
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /data/www/public/index.php:0
+PHP message: PHP   2. Illuminate\Foundation\Http\Kernel->handle() /data/www/public/index.php:54
+PHP message: PHP   3. Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:87
+PHP message: PHP   4. Illuminate\Pipeline\Pipeline->then() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:122
+PHP message: PHP   5. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP   6. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP   7. call_user_func_array:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP   8. Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP   9. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php:44
+PHP message: PHP  10. call_user_func_array:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP  11. Illuminate\Cookie\Middleware\EncryptCookies->handle() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP  12. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor
+2015/12/04 15:04:44 [error] 10#0: *32 FastCGI sent in stderr: "te\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php:50
+PHP message: PHP  25. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  26. Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  27. Illuminate\Routing\Router->dispatch() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:236
+PHP message: PHP  28. Illuminate\Routing\Router->dispatchToRoute() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:635
+PHP message: PHP  29. Illuminate\Routing\Router->runRouteWithinStack() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:675
+PHP message: PHP  30. Illuminate\Pipeline\Pipeline->then() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:710
+PHP message: PHP  31. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP  32. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP  33. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  34. Illuminate\Routing\Router->Illuminate\Routing\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  35. Illuminate\Routing\Route->run() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:708
+PHP message: PHP  36. Illuminate\Routing\Route->runCallable() /data/www/vendor/laravel/framework/src/Illumina
+2015/12/04 15:08:00 [error] 10#0: *36 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Call to undefined method Facebook\Facebook::getUser() in /data/www/app/Http/routes.php on line 37
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /data/www/public/index.php:0
+PHP message: PHP   2. Illuminate\Foundation\Http\Kernel->handle() /data/www/public/index.php:54
+PHP message: PHP   3. Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:87
+PHP message: PHP   4. Illuminate\Pipeline\Pipeline->then() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:122
+PHP message: PHP   5. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP   6. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP   7. call_user_func_array:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP   8. Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP   9. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php:44
+PHP message: PHP  10. call_user_func_array:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP  11. Illuminate\Cookie\Middleware\EncryptCookies->handle() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP  12. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor
+2015/12/04 15:08:00 [error] 10#0: *36 FastCGI sent in stderr: "te\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php:50
+PHP message: PHP  25. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  26. Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  27. Illuminate\Routing\Router->dispatch() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:236
+PHP message: PHP  28. Illuminate\Routing\Router->dispatchToRoute() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:635
+PHP message: PHP  29. Illuminate\Routing\Router->runRouteWithinStack() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:675
+PHP message: PHP  30. Illuminate\Pipeline\Pipeline->then() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:710
+PHP message: PHP  31. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP  32. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP  33. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  34. Illuminate\Routing\Router->Illuminate\Routing\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  35. Illuminate\Routing\Route->run() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:708
+PHP message: PHP  36. Illuminate\Routing\Route->runCallable() /data/www/vendor/laravel/framework/src/Illumina
+2015/12/04 15:09:29 [error] 10#0: *40 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Call to undefined method Facebook\Facebook::api() in /data/www/app/Http/routes.php on line 41
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /data/www/public/index.php:0
+PHP message: PHP   2. Illuminate\Foundation\Http\Kernel->handle() /data/www/public/index.php:54
+PHP message: PHP   3. Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:87
+PHP message: PHP   4. Illuminate\Pipeline\Pipeline->then() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:122
+PHP message: PHP   5. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP   6. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP   7. call_user_func_array:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP   8. Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP   9. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php:44
+PHP message: PHP  10. call_user_func_array:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP  11. Illuminate\Cookie\Middleware\EncryptCookies->handle() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP  12. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/lar
+2015/12/04 15:09:29 [error] 10#0: *40 FastCGI sent in stderr: "ipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php:50
+PHP message: PHP  25. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  26. Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  27. Illuminate\Routing\Router->dispatch() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:236
+PHP message: PHP  28. Illuminate\Routing\Router->dispatchToRoute() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:635
+PHP message: PHP  29. Illuminate\Routing\Router->runRouteWithinStack() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:675
+PHP message: PHP  30. Illuminate\Pipeline\Pipeline->then() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:710
+PHP message: PHP  31. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP  32. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP  33. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  34. Illuminate\Routing\Router->Illuminate\Routing\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  35. Illuminate\Routing\Route->run() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:708
+PHP message: PHP  36. Illuminate\Routing\Route->runCallable() /data/www/vendor/laravel/framework/src/Illuminate/R
+2015/12/04 15:10:05 [error] 10#0: *40 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Call to undefined method Facebook\Facebook::api() in /data/www/app/Http/routes.php on line 41
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /data/www/public/index.php:0
+PHP message: PHP   2. Illuminate\Foundation\Http\Kernel->handle() /data/www/public/index.php:54
+PHP message: PHP   3. Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:87
+PHP message: PHP   4. Illuminate\Pipeline\Pipeline->then() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:122
+PHP message: PHP   5. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP   6. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP   7. call_user_func_array:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP   8. Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP   9. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php:44
+PHP message: PHP  10. call_user_func_array:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP  11. Illuminate\Cookie\Middleware\EncryptCookies->handle() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP  12. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/lar
+2015/12/04 15:10:05 [error] 10#0: *40 FastCGI sent in stderr: "ipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php:50
+PHP message: PHP  25. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  26. Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  27. Illuminate\Routing\Router->dispatch() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:236
+PHP message: PHP  28. Illuminate\Routing\Router->dispatchToRoute() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:635
+PHP message: PHP  29. Illuminate\Routing\Router->runRouteWithinStack() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:675
+PHP message: PHP  30. Illuminate\Pipeline\Pipeline->then() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:710
+PHP message: PHP  31. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP  32. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP  33. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  34. Illuminate\Routing\Router->Illuminate\Routing\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  35. Illuminate\Routing\Route->run() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:708
+PHP message: PHP  36. Illuminate\Routing\Route->runCallable() /data/www/vendor/laravel/framework/src/Illuminate/R
+2015/12/04 15:24:00 [error] 10#0: *46 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Call to undefined method Facebook\Facebook::api() in /data/www/app/Http/routes.php on line 41
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /data/www/public/index.php:0
+PHP message: PHP   2. Illuminate\Foundation\Http\Kernel->handle() /data/www/public/index.php:54
+PHP message: PHP   3. Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:87
+PHP message: PHP   4. Illuminate\Pipeline\Pipeline->then() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:122
+PHP message: PHP   5. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP   6. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP   7. call_user_func_array:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP   8. Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP   9. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php:44
+PHP message: PHP  10. call_user_func_array:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP  11. Illuminate\Cookie\Middleware\EncryptCookies->handle() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP  12. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/lar
+2015/12/04 15:24:00 [error] 10#0: *46 FastCGI sent in stderr: "ipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php:50
+PHP message: PHP  25. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  26. Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  27. Illuminate\Routing\Router->dispatch() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:236
+PHP message: PHP  28. Illuminate\Routing\Router->dispatchToRoute() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:635
+PHP message: PHP  29. Illuminate\Routing\Router->runRouteWithinStack() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:675
+PHP message: PHP  30. Illuminate\Pipeline\Pipeline->then() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:710
+PHP message: PHP  31. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP  32. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP  33. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  34. Illuminate\Routing\Router->Illuminate\Routing\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  35. Illuminate\Routing\Route->run() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:708
+PHP message: PHP  36. Illuminate\Routing\Route->runCallable() /data/www/vendor/laravel/framework/src/Illuminate/R
+2015/12/04 15:37:47 [error] 10#0: *50 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected '}' in /data/www/app/Http/routes.php on line 70
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /data/www/public/index.php:0
+PHP message: PHP   2. Illuminate\Foundation\Http\Kernel->handle() /data/www/public/index.php:54
+PHP message: PHP   3. Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:87
+PHP message: PHP   4. Illuminate\Foundation\Http\Kernel->bootstrap() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:117
+PHP message: PHP   5. Illuminate\Foundation\Application->bootstrapWith() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:222
+PHP message: PHP   6. Illuminate\Foundation\Bootstrap\BootProviders->bootstrap() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+PHP message: PHP   7. Illuminate\Foundation\Application->boot() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php:17
+PHP message: PHP   8. array_walk() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:718
+PHP message: PHP   9. Illuminate\Foundation\Application->Illuminate\Foundation\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:718
+PHP message: PHP  10. Illuminate\Foundation\Application->bootProvider() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:717
+PHP message: PHP  11. Illuminate\Container\Container->call() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:734
+PHP message: PHP  12. call_user_func_array:{/data/www/vendor/laravel/framework/src/Illuminate/Container/Container.php:503}() /data/www/vendor/laravel/framework/src/Illuminate/Container/Container.php:503
+PHP message: PHP  13. App\Providers\RouteServiceProvider->boot() /data/www/vendor/laravel/framework/src/Illuminate/Contain
+2015/12/04 15:38:19 [error] 10#0: *50 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Call to undefined method Facebook\Facebook::getAccessToken() in /data/www/app/Http/routes.php on line 61
+PHP message: PHP Stack trace:
+PHP message: PHP   1. {main}() /data/www/public/index.php:0
+PHP message: PHP   2. Illuminate\Foundation\Http\Kernel->handle() /data/www/public/index.php:54
+PHP message: PHP   3. Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:87
+PHP message: PHP   4. Illuminate\Pipeline\Pipeline->then() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:122
+PHP message: PHP   5. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP   6. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP   7. call_user_func_array:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP   8. Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode->handle() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP   9. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php:44
+PHP message: PHP  10. call_user_func_array:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP  11. Illuminate\Cookie\Middleware\EncryptCookies->handle() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:124
+PHP message: PHP  12. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www
+2015/12/04 15:38:19 [error] 10#0: *50 FastCGI sent in stderr: "lluminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php:50
+PHP message: PHP  25. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  26. Illuminate\Foundation\Http\Kernel->Illuminate\Foundation\Http\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  27. Illuminate\Routing\Router->dispatch() /data/www/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:236
+PHP message: PHP  28. Illuminate\Routing\Router->dispatchToRoute() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:635
+PHP message: PHP  29. Illuminate\Routing\Router->runRouteWithinStack() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:675
+PHP message: PHP  30. Illuminate\Pipeline\Pipeline->then() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:710
+PHP message: PHP  31. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP  32. Illuminate\Pipeline\Pipeline->Illuminate\Pipeline\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:103
+PHP message: PHP  33. call_user_func:{/data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  34. Illuminate\Routing\Router->Illuminate\Routing\{closure}() /data/www/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php:139
+PHP message: PHP  35. Illuminate\Routing\Route->run() /data/www/vendor/laravel/framework/src/Illuminate/Routing/Router.php:708
+PHP message: PHP  36. Illuminate\Routing\Route->runCallable() /data/www/vendor/laravel/framework/src/I
